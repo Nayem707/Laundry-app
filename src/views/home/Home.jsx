@@ -1,7 +1,12 @@
 import React from 'react';
+import HroSection from '../../components/HroSection';
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <HroSection />
+    </>
+  );
 };
 
 export default Home;
