@@ -1,21 +1,15 @@
 import React from 'react';
 
-const Section_two = () => {
+const Section_three = () => {
   return (
-    <section className='px-28 py-32 flex gap-44 items-center'>
-      <div className=''>
-        <div className='relative w-96 h-96 ring-8 ring-blue-100 border-8 border-red-100 rounded-full bg-blue-900'>
-          <img className='absolute top-0 ' src='src/assets/img-1.png' alt='' />
-        </div>
-      </div>
-
-      <div className=' space-y-5'>
+    <section className='px-28 py-24 flex gap-36 items-center '>
+      <div className=' space-y-5 '>
         <h1 className='font-extrabold text-5xl'>
           Full Services{' '}
-          <strong className='font-extrabold text-blue-700'>Launderer</strong>{' '}
+          <strong className='font-extrabold text-yellow-400 '>Launderer</strong>{' '}
           Room Management
         </h1>
-        <p className='mt-4 max-w-lg sm:text-xl/relaxed text-justify'>
+        <p className='mt-4 max-w-lg sm:text-xl/relaxed'>
           Looking for top quality equipment for your laundry room without the
           upfront costs? We can help.
         </p>
@@ -28,8 +22,14 @@ const Section_two = () => {
           </a>
         </div>
       </div>
+
+      <div className=''>
+        <div className='relative w-96 h-96 ring-8 ring-yellow-300 border-8 border-gray-100 shadow-lg bg-blue-100 '>
+          <img className='absolute top-16' src='src/assets/img-2.png' alt='' />
+        </div>
+      </div>
     </section>
   );
 };
 
-export default Section_two;
+export default Section_three;
