@@ -3,14 +3,14 @@ import React from 'react';
 const HroSection = () => {
   return (
     <section className='relative bg-[url(https://res.cloudinary.com/nayem490/image/upload/v1698581405/hero-1_qleqa1.jpg)] bg-cover bg-center bg-no-repeat'>
-      <div className='absolute inset-0 bg-white/70 sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l'></div>
+      <div className='absolute inset-0 bg-white/60 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l'></div>
 
       <div className='flex justify-between'>
         <div className='relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8'>
           <div className='max-w-xl ltr:sm:text-left rtl:sm:text-right'>
-            <h1 className='text-3xl font-extrabold sm:text-5xl'>
-              Your Personal
-              <strong className='block font-extrabold text-blue-700'>
+            <h1 className='font-extrabold text-6xl'>
+              Your Personal{' '}
+              <strong className='font-extrabold text-blue-700'>
                 Launderer
               </strong>
             </h1>
@@ -39,9 +39,26 @@ const HroSection = () => {
         </div>
 
         <div className=' mx-auto max-w-screen-xl gap-5 flex'>
-          <span className='relative flex h-14 w-14 top-60'>
+          <span className='relative flex h-24 w-24 top-60 '>
             <span className='animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75'></span>
-            <span className='relative inline-flex rounded-full h-14 w-14 bg-blue-500'></span>
+            <span className='relative inline-flex rounded-full h-24 w-24 cursor-pointer bg-blue-500'>
+              <span className=' absolute top-7 left-7 '>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  fill='none'
+                  viewBox='0 0 24 24'
+                  strokeWidth={2}
+                  stroke='white'
+                  className='w-10 h-10'
+                >
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    d='M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z'
+                  />
+                </svg>
+              </span>
+            </span>
           </span>
 
           <span className='relative flex h-8 w-8 top-60'>
