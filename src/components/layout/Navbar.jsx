@@ -61,7 +61,7 @@ const Navbar = () => {
             viewBox='0 0 24 24'
             strokeWidth={2.5}
             stroke='currentColor'
-            className='w-8 h-8 text-blue-500'
+            className='w-8 h-8 text-gray-600'
           >
             <path
               strokeLinecap='round'
@@ -70,7 +70,7 @@ const Navbar = () => {
             />
           </svg>
         </div>
-        <div className=' uppercase font-bold text-md text-blue-500'>
+        <div className=' uppercase font-bold text-md text-gray-800'>
           <ul className='flex gap-6 items-center'>
             <li>
               <a href='#home'>Home</a>
@@ -84,7 +84,7 @@ const Navbar = () => {
                 <div className='group relative cursor-pointer'>
                   <div className='flex gap-2 items-center justify-between '>
                     <a
-                      className='uppercase font-bold text-md text-blue-500 '
+                      className='uppercase font-bold text-md text-gray-800 '
                       onClick=''
                     >
                       Our Products

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const HroSection = () => {
   return (
     <section className='relative bg-[url(https://res.cloudinary.com/nayem490/image/upload/v1698581405/hero-1_qleqa1.jpg)] bg-cover bg-center bg-no-repeat'>
@@ -8,7 +6,7 @@ const HroSection = () => {
       <div className='flex justify-between'>
         <div className='relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8'>
           <div className='max-w-xl ltr:sm:text-left rtl:sm:text-right'>
-            <h1 className='font-extrabold text-6xl'>
+            <h1 className=' uppercase font-extrabold text-6xl'>
               Your Personal{' '}
               <strong className='font-extrabold text-blue-700'>
                 Launderer

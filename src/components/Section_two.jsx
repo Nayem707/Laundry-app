@@ -1,16 +1,14 @@
-import React from 'react';
-
 const Section_two = () => {
   return (
     <section className='px-28 py-32 flex gap-44 items-center'>
       <div className=''>
-        <div className='relative w-96 h-96 ring-8 ring-blue-100 border-8 border-red-100 rounded-full bg-blue-900'>
+        <div className='relative w-96 h-96 ring-8 ring-blue-100 border-8 border-gray-100 rounded-full bg-blue-600'>
           <img className='absolute top-0 ' src='src/assets/img-1.png' alt='' />
         </div>
       </div>
 
       <div className=' space-y-5'>
-        <h1 className='font-extrabold text-5xl'>
+        <h1 className=' uppercase font-extrabold text-5xl'>
           Full Services{' '}
           <strong className='font-extrabold text-blue-700'>Launderer</strong>{' '}
           Room Management

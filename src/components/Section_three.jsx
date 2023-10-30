@@ -1,10 +1,8 @@
-import React from 'react';
-
 const Section_three = () => {
   return (
-    <section className='px-28 py-24 flex gap-36 items-center '>
+    <section className='px-28 py-32 flex gap-32 items-center border'>
       <div className=' space-y-5 '>
-        <h1 className='font-extrabold text-5xl'>
+        <h1 className=' uppercase font-extrabold text-5xl'>
           Full Services{' '}
           <strong className='font-extrabold text-yellow-400 '>Launderer</strong>{' '}
           Room Management
