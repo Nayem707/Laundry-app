@@ -29,7 +29,7 @@ const Section_three = () => {
 
       <div className=''>
         <div className='relative w-96 h-96 ring-8 ring-yellow-300 border-8 border-gray-100 shadow-lg bg-blue-100 '>
-          <img className='absolute top-16' src='src/assets/img-2.png' alt='' />
+          <img className='absolute top-16' src='assets/img-2.png' alt='' />
         </div>
       </div>
     </section>

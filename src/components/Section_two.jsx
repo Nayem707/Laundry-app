@@ -5,7 +5,7 @@ const Section_two = () => {
     <section className='px-28 py-32 flex gap-44 items-center'>
       <div className=''>
         <div className='relative w-96 h-96 ring-8 ring-blue-100 border-8 border-gray-100 rounded-full bg-blue-600'>
-          <img className='absolute top-0 ' src='src/assets/img-1.png' alt='' />
+          <img className='absolute top-0 ' src='assets/img-1.png' alt='' />
         </div>
       </div>
 

@@ -9,7 +9,7 @@ const Footer = () => {
               href='#'
               className='space-x-3 md:justify-start'
             >
-              <img className='w-44' src='src/assets/logo.png' alt='logo' />
+              <img className='w-44' src='assets/logo.png' alt='logo' />
             </a>
             <p className=' text-justify font-medium text-gray-400'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum

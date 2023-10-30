@@ -14,7 +14,7 @@ const Section_five = () => {
         {/* item-1 */}
         <div className='space-y-5'>
           <div className=' flex justify-center'>
-            <img className='w-20 ' src='/src/assets/img-3.png' alt='' />
+            <img className='w-20 ' src='assets/img-3.png' alt='' />
           </div>
           <div className=' space-y-2'>
             <h1 className='text-2xl font-bold'>Trustworthy</h1>
@@ -28,7 +28,7 @@ const Section_five = () => {
         {/* item-1 */}
         <div className='space-y-5'>
           <div className=' flex justify-center'>
-            <img className='w-20 ' src='/src/assets/icon-1.png' alt='' />
+            <img className='w-20 ' src='assets/icon-1.png' alt='' />
           </div>
           <div className=' space-y-2'>
             <h1 className='text-2xl font-bold'>Convenient</h1>
@@ -42,7 +42,7 @@ const Section_five = () => {
         {/* item-1 */}
         <div className='space-y-5'>
           <div className=' flex justify-center'>
-            <img className='w-20 ' src='/src/assets/icon-3.png' alt='' />
+            <img className='w-20 ' src='assets/icon-3.png' alt='' />
           </div>
           <div className=' space-y-2'>
             <h1 className='text-2xl font-bold'>Quality</h1>
@@ -56,7 +56,7 @@ const Section_five = () => {
         {/* item-1 */}
         <div className='space-y-5'>
           <div className=' flex justify-center pt-4'>
-            <img className='w-24 ' src='/src/assets/icon-4.png' alt='' />
+            <img className='w-24 ' src='assets/icon-4.png' alt='' />
           </div>
           <div className=' space-y-2'>
             <h1 className='text-2xl font-bold'>Community</h1>
