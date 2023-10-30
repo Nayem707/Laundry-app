@@ -2,10 +2,10 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const Section_three = () => {
   return (
-    <section className='px-28 py-32 flex gap-32 items-center border'>
-      <div className=' space-y-5 '>
+    <section className='px-4 pt-10 md:px-28 md:py-32 md:flex md:gap-32 items-center border'>
+      <div className=' md:space-y-5 '>
         <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
-          <h1 className=' uppercase font-extrabold text-5xl'>
+          <h1 className=' uppercase font-extrabold text-3xl text-center md:text-left md:text-5xl'>
             Full Services{' '}
             <strong className='font-extrabold text-yellow-400 '>
               Launderer
@@ -27,9 +27,13 @@ const Section_three = () => {
         </div>
       </div>
 
-      <div className=''>
-        <div className='relative w-96 h-96 ring-8 ring-yellow-300 border-8 border-gray-100 shadow-lg bg-blue-100 '>
-          <img className='absolute top-16' src='assets/img-2.png' alt='' />
+      <div className='p-5'>
+        <div className='relative w-80 h-80 md:w-96 md:h-96 ring-8 ring-yellow-300 border-8 border-gray-100 shadow-lg bg-blue-100 '>
+          <img
+            className='absolute top-12 md:top-16'
+            src='assets/img-2.png'
+            alt=''
+          />
         </div>
       </div>
     </section>

@@ -4,18 +4,18 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const Section_six = () => {
   return (
     <>
-      <section className='bg-gray-100 px-24'>
+      <section className='bg-gray-100 md:px-24 px-5'>
         <div className=' py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24'>
           <div className='items-end justify-between sm:flex '>
             <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
-              <h2 className=' uppercase max-w-xl text-5xl font-bold tracking-tight text-gray-800 '>
+              <h2 className='uppercase font-extrabold text-3xl text-center md:text-center md:text-5xl'>
                 Read trusted{' '}
                 <strong className=' text-yellow-300'>reviews</strong> from our
                 customers
               </h2>
             </ScrollAnimation>
 
-            <div className='flex gap-4 lg:mt-0'>
+            <div className='md:flex gap-4 lg:mt-0'>
               <a
                 href='#reviews'
                 className='mt-6 inline-flex shrink-0 items-center gap-2 rounded-full border border-gray-600 px-5 py-3 text-blue-600 transition hover:bg-blue-600 hover:text-white md:mt-0'
@@ -82,7 +82,7 @@ const Section_six = () => {
             </div>
           </div>
 
-          <div className='-mx-6 flex gap-4 mt-8 lg:col-span-2 lg:mx-0'>
+          <div className='-mx-6 md:flex gap-4 mt-8 lg:col-span-2 lg:mx-0'>
             <div className='keen-slider__slide'>
               <blockquote className='flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12'>
                 <div>

@@ -6,6 +6,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 // import required modules
 import { Autoplay } from 'swiper/modules';
+import Play_btn from './Play_btn';
 
 export default function Slider() {
   return (
@@ -29,7 +30,7 @@ export default function Slider() {
           <section className='relative bg-[url(https://res.cloudinary.com/nayem490/image/upload/v1698581405/hero-1_qleqa1.jpg)] bg-cover bg-center bg-no-repeat'>
             <div className='absolute inset-0 bg-white/60 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l'></div>
 
-            <div className='flex justify-between'>
+            <div className='md:flex items-center'>
               <div className='relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8'>
                 <div className='max-w-xl ltr:sm:text-left rtl:sm:text-right'>
                   <h1 className=' uppercase font-extrabold text-6xl'>
@@ -63,50 +64,13 @@ export default function Slider() {
                 </div>
               </div>
 
-              <div className=' mx-auto max-w-screen-xl gap-5 flex'>
-                <span className='relative flex h-24 w-24 top-60 '>
-                  <span className='animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75'></span>
-                  <span className='relative inline-flex rounded-full h-24 w-24 cursor-pointer bg-blue-500'>
-                    <span className=' absolute top-7 left-7 '>
-                      <svg
-                        xmlns='http://www.w3.org/2000/svg'
-                        fill='none'
-                        viewBox='0 0 24 24'
-                        strokeWidth={2}
-                        stroke='white'
-                        className='w-10 h-10'
-                      >
-                        <path
-                          strokeLinecap='round'
-                          strokeLinejoin='round'
-                          d='M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z'
-                        />
-                      </svg>
-                    </span>
-                  </span>
-                </span>
-
-                <span className='relative flex h-8 w-8 top-60'>
-                  <span className='animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75'></span>
-                  <span className='relative inline-flex rounded-full h-8 w-8 bg-blue-500'></span>
-                </span>
-
-                <span className='relative flex h-5 w-5 top-60'>
-                  <span className='animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-800 opacity-75'></span>
-                  <span className='relative inline-flex rounded-full h-5 w-5 bg-blue-800'></span>
-                </span>
-
-                <span className='relative flex h-2 w-2 top-60'>
-                  <span className='animate-ping absolute inline-flex h-full w-full rounded-full bg-gray-800 opacity-75'></span>
-                  <span className='relative inline-flex rounded-full h-2 w-2 bg-gray-800'></span>
-                </span>
-              </div>
+              <Play_btn />
             </div>
           </section>
         </SwiperSlide>
 
         {/* item 2 */}
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <section className='relative bg-[url(https://res.cloudinary.com/nayem490/image/upload/v1674736526/samples/people/bicycle.jpg)] bg-cover bg-center bg-no-repeat'>
             <div className='absolute inset-0 bg-white/60 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l'></div>
 
@@ -184,10 +148,10 @@ export default function Slider() {
               </div>
             </div>
           </section>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
         {/* item 3 */}
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <section className='relative bg-[url(https://res.cloudinary.com/nayem490/image/upload/v1698647332/unrecognizable-man-ironing-shirt_wsz53q.jpg)] bg-cover bg-center bg-no-repeat'>
             <div className='absolute inset-0 bg-white/60 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l'></div>
 
@@ -265,7 +229,7 @@ export default function Slider() {
               </div>
             </div>
           </section>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </>
   );

@@ -12,7 +12,7 @@ const Section_seven = () => {
         </ScrollAnimation>
       </div>
 
-      <div className='grid grid-cols-4 gap-5'>
+      <div className='grid grid-cols-1 p-5 md:grid-cols-4 gap-5'>
         {/* item-1 */}
         <div className='rounded-xl  ring-8 ring-gray-100 shadow-md cursor-pointer group overflow-hidden relative text-gray-50 hover:duration-700 duration-700'>
           <div className=''>

@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 export const TopNav = () => {
   return (
-    <div className=' flex justify-between items-center px-24 py-5'>
+    <div className='hidden md:flex justify-between items-center px-24 py-5'>
       <div className=' flex gap-4 text-md font-semibold text-slate-600'>
         <a href='#'>
           <FaFacebook size={20} />
@@ -33,8 +33,8 @@ const Navbar = () => {
   return (
     <>
       <TopNav />
-      <nav className='sticky top-0 z-10 backdrop-blur-2xl flex justify-between items-center px-24 shadow-sm border py-5'>
-        <div className=''>
+      <nav className='sticky top-0 z-10 backdrop-blur-2xl flex justify-between md:items-center md:px-24 shadow-sm border py-5'>
+        <div className='px-5 cursor-pointer'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             fill='none'
@@ -50,8 +50,9 @@ const Navbar = () => {
             />
           </svg>
         </div>
+
         <div className=' uppercase font-bold text-md text-gray-800'>
-          <ul className='flex gap-6 items-center'>
+          <ul className=' hidden md:flex gap-6 items-center'>
             <li>
               <a href='#home'>Home</a>
             </li>
@@ -115,6 +116,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
+
         <div className=''>
           <button className=' border px-5 py-2 rounded-md uppercase font-bold text-md text-blue-500'>
             LOGIN

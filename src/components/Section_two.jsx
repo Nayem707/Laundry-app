@@ -2,16 +2,16 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const Section_two = () => {
   return (
-    <section className='px-28 py-32 flex gap-44 items-center'>
-      <div className=''>
+    <section className='px-4 pt-10 md:px-28 md:py-32 md:flex md:gap-44 md:items-center'>
+      <div className='mb-10'>
         <div className='relative w-96 h-96 ring-8 ring-blue-100 border-8 border-gray-100 rounded-full bg-blue-600'>
           <img className='absolute top-0 ' src='assets/img-1.png' alt='' />
         </div>
       </div>
 
-      <div className=' space-y-5'>
+      <div className='md:space-y-5'>
         <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
-          <h1 className=' uppercase font-extrabold text-5xl'>
+          <h1 className=' uppercase font-extrabold text-3xl text-center md:text-left md:text-5xl'>
             Full Services{' '}
             <strong className='font-extrabold text-blue-700'>Launderer</strong>{' '}
             Room Management

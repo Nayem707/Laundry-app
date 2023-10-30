@@ -2,15 +2,15 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const Section_five = () => {
   return (
-    <section className=' px-24 py-20'>
+    <section className='px-5 py-10 md:px-24 md:py-20'>
       <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
-        <h1 className=' uppercase py-5 text-center text-5xl font-bold'>
+        <h1 className='uppercase font-extrabold text-3xl text-center md:text-center md:text-5xl'>
           Why You Will Love{' '}
           <strong className=' text-blue-300'> yarpacom</strong>
         </h1>
       </ScrollAnimation>
 
-      <div className='grid grid-cols-4 gap-10 text-center pt-16 '>
+      <div className='grid md:grid-cols-4 gap-10 text-center pt-16 '>
         {/* item-1 */}
         <div className='space-y-5'>
           <div className=' flex justify-center'>

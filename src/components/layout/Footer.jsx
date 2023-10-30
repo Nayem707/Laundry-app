@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <footer className=' px-20 py-10 bg-gray-800 text-gray-50'>
+    <footer className='py-10 md:px-20 md:py-10 bg-gray-800 text-gray-50'>
       <div className='container px-6 mx-auto space-y-6 divide-y divide-gray-400 md:space-y-12 divide-opacity-50'>
-        <div className='flex justify-between'>
+        <div className='grid gap-10 md:grid-cols-3'>
           <div className='w-96 space-y-5'>
             <a
               rel='noopener noreferrer'
@@ -19,7 +19,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className=' flex gap-14'>
+          <div className='flex gap-14'>
             <div>
               <p className='pb-1 text-lg font-medium'>Category</p>
               <ul>
@@ -176,20 +176,20 @@ const Footer = () => {
 
           <div className=''>
             <form className='w-full'>
-              <h1 className=' text-xl font-bold py-2'>Subscribe</h1>
+              <h1 className=' text-md center font-bold py-2'>Subscribe</h1>
               <label htmlFor='UserEmail' className='sr-only '>
                 {' '}
                 Email{' '}
               </label>
 
-              <div className='border border-gray-600 p-2 focus-within:ring sm:flex sm:items-center sm:gap-4'>
+              <div className='border flex border-gray-600 p-1 focus-within:ring sm:flex sm:items-center sm:gap-4'>
                 <input
                   type='email'
                   placeholder='john@rhcp.com'
                   className='w-full bg-transparent focus:ring-transparent sm:text-sm '
                 />
 
-                <button className='mt-1 w-full bg-blue-500 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-gray-600 sm:mt-0 sm:w-auto sm:shrink-0'>
+                <button className='md:m-1 w-full bg-blue-500 md:px-6 md:py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-gray-600 sm:mt-0 sm:w-auto sm:shrink-0'>
                   Sign Up
                 </button>
               </div>
