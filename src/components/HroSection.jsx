@@ -1,3 +1,5 @@
+import Slider from './common/Slider';
+
 const HroSection = () => {
   return (
     <section className='relative bg-[url(https://res.cloudinary.com/nayem490/image/upload/v1698581405/hero-1_qleqa1.jpg)] bg-cover bg-center bg-no-repeat'>
@@ -75,6 +77,10 @@ const HroSection = () => {
           </span>
         </div>
       </div>
+
+      {/* <div className='h-16'>
+        <Slider />
+      </div> */}
     </section>
   );
 };

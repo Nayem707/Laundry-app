@@ -1,12 +1,18 @@
+import ScrollAnimation from 'react-animate-on-scroll';
+
 const Section_three = () => {
   return (
     <section className='px-28 py-32 flex gap-32 items-center border'>
       <div className=' space-y-5 '>
-        <h1 className=' uppercase font-extrabold text-5xl'>
-          Full Services{' '}
-          <strong className='font-extrabold text-yellow-400 '>Launderer</strong>{' '}
-          Room Management
-        </h1>
+        <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
+          <h1 className=' uppercase font-extrabold text-5xl'>
+            Full Services{' '}
+            <strong className='font-extrabold text-yellow-400 '>
+              Launderer
+            </strong>{' '}
+            Room Management
+          </h1>
+        </ScrollAnimation>
         <p className='mt-4 max-w-lg sm:text-xl/relaxed'>
           Looking for top quality equipment for your laundry room without the
           upfront costs? We can help.

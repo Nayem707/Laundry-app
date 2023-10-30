@@ -1,11 +1,15 @@
+import ScrollAnimation from 'react-animate-on-scroll';
+
 const Section_seven = () => {
   return (
     <section className='md:px-28 md:py-16 py-5 space-y-16  bg-gray-200'>
       <div className='text-center'>
-        <h1 className=' uppercase font-extrabold text-5xl'>
-          OUR Letets{' '}
-          <strong className='font-extrabold text-blue-400 '>Blog</strong>{' '}
-        </h1>
+        <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
+          <h1 className=' uppercase font-extrabold text-5xl'>
+            OUR Letets{' '}
+            <strong className='font-extrabold text-blue-400 '>Blog</strong>{' '}
+          </h1>
+        </ScrollAnimation>
       </div>
 
       <div className='grid grid-cols-4 gap-5'>

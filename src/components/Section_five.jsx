@@ -1,9 +1,14 @@
+import ScrollAnimation from 'react-animate-on-scroll';
+
 const Section_five = () => {
   return (
     <section className=' px-24 py-20'>
-      <h1 className=' uppercase py-5 text-center text-5xl font-bold'>
-        Why You Will Love <strong className=' text-blue-300'> yarpacom</strong>
-      </h1>
+      <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
+        <h1 className=' uppercase py-5 text-center text-5xl font-bold'>
+          Why You Will Love{' '}
+          <strong className=' text-blue-300'> yarpacom</strong>
+        </h1>
+      </ScrollAnimation>
 
       <div className='grid grid-cols-4 gap-10 text-center pt-16 '>
         {/* item-1 */}

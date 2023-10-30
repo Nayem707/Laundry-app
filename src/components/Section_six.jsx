@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Section_six = () => {
   return (
@@ -6,10 +7,13 @@ const Section_six = () => {
       <section className='bg-gray-100 px-24'>
         <div className=' py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24'>
           <div className='items-end justify-between sm:flex '>
-            <h2 className=' uppercase max-w-xl text-5xl font-bold tracking-tight text-gray-800 '>
-              Read trusted <strong className=' text-yellow-300'>reviews</strong>{' '}
-              from our customers
-            </h2>
+            <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
+              <h2 className=' uppercase max-w-xl text-5xl font-bold tracking-tight text-gray-800 '>
+                Read trusted{' '}
+                <strong className=' text-yellow-300'>reviews</strong> from our
+                customers
+              </h2>
+            </ScrollAnimation>
 
             <div className='flex gap-4 lg:mt-0'>
               <a
