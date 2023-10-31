@@ -4,8 +4,8 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const Section_six = () => {
   return (
     <>
-      <section className='bg-gray-100 md:px-24 px-5'>
-        <div className=' py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24'>
+      <section className='bg-gray-100 md:px-24 md:py-16 px-5'>
+        <div className='py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24'>
           <div className='items-end justify-between sm:flex '>
             <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
               <h2 className='uppercase font-extrabold text-3xl text-center md:text-start md:text-5xl'>

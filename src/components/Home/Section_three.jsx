@@ -27,8 +27,8 @@ const Section_three = () => {
         </div>
       </div>
 
-      <div className='p-5'>
-        <div className='relative w-80 h-80 md:w-96 md:h-96 ring-8 ring-yellow-300 border-8 border-gray-100 shadow-lg bg-blue-100 '>
+      <div className='py-10 px-'>
+        <div className='relative w-72 h-72 md:w-96 md:h-96 ring-8 ring-yellow-300 border-8 border-gray-100 shadow-lg bg-blue-100 '>
           <img
             className='absolute top-12 md:top-16'
             src='assets/img-2.png'
