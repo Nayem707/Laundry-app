@@ -25,7 +25,7 @@ const Section_five = () => {
           </div>
         </div>
 
-        {/* item-1 */}
+        {/* item-2 */}
         <div className='space-y-5'>
           <div className=' flex justify-center'>
             <img className='w-20 ' src='assets/icon-1.png' alt='' />
@@ -39,7 +39,7 @@ const Section_five = () => {
           </div>
         </div>
 
-        {/* item-1 */}
+        {/* item-3 */}
         <div className='space-y-5'>
           <div className=' flex justify-center'>
             <img className='w-20 ' src='assets/icon-3.png' alt='' />
@@ -53,7 +53,7 @@ const Section_five = () => {
           </div>
         </div>
 
-        {/* item-1 */}
+        {/* item-4 */}
         <div className='space-y-5'>
           <div className=' flex justify-center pt-4'>
             <img className='w-24 ' src='assets/icon-4.png' alt='' />

@@ -8,14 +8,14 @@ const Section_six = () => {
         <div className=' py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24'>
           <div className='items-end justify-between sm:flex '>
             <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
-              <h2 className='uppercase font-extrabold text-3xl text-center md:text-center md:text-5xl'>
+              <h2 className='uppercase font-extrabold text-3xl text-center md:text-start md:text-5xl'>
                 Read trusted{' '}
-                <strong className=' text-yellow-300'>reviews</strong> from our
-                customers
+                <strong className=' text-yellow-300'>reviews</strong> <br />{' '}
+                from our customers
               </h2>
             </ScrollAnimation>
 
-            <div className='md:flex gap-4 lg:mt-0'>
+            <div className='md:flex gap-4 items-center justify-center lg:mt-0'>
               <a
                 href='#reviews'
                 className='mt-6 inline-flex shrink-0 items-center gap-2 rounded-full border border-gray-600 px-5 py-3 text-blue-600 transition hover:bg-blue-600 hover:text-white md:mt-0'

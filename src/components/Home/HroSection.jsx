@@ -1,4 +1,4 @@
-import Slider from './common/Slider';
+import Slider from '../common/Slider';
 
 const HroSection = () => {
   return (
