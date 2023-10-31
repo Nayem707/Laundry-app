@@ -53,4 +53,10 @@ component.
 
 <h3> 6. Folder Structure:</h3>
 
-<img src="/assets/folder.png" alt="..." >
+- Upcoming....
+
+### LIVE DEMO
+
+#
+
+<a href="https://laundere-490.netlify.app/" target="_blank" rel="noopener noreferrer">CLICK HERE</a>
