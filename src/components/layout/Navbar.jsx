@@ -117,7 +117,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className=''>
+        <div className='px-5 md:px-0'>
           <button className=' border px-5 py-2 rounded-md uppercase font-bold text-md text-blue-500'>
             LOGIN
           </button>

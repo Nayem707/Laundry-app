@@ -1,14 +1,13 @@
-import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const Section_six = () => {
   return (
     <>
-      <section className='bg-gray-100 md:px-24 md:py-16 px-5'>
+      <section className='bg-gray-100 md:px-24 px-10'>
         <div className='py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24'>
-          <div className='items-end justify-between sm:flex '>
+          <div className='sm:items-end justify-between sm:flex gap-10'>
             <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'>
-              <h2 className='uppercase font-extrabold text-3xl text-center md:text-start md:text-5xl'>
+              <h2 className='uppercase font-extrabold text-4xl text-center md:text-start md:text-5xl'>
                 Read trusted{' '}
                 <strong className=' text-yellow-300'>reviews</strong> <br />{' '}
                 from our customers
@@ -82,7 +81,7 @@ const Section_six = () => {
             </div>
           </div>
 
-          <div className='-mx-6 md:flex gap-4 mt-8 lg:col-span-2 lg:mx-0'>
+          <div className='grid md:grid-cols-3 gap-5 py-16'>
             <div className='keen-slider__slide'>
               <blockquote className='flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12'>
                 <div>
@@ -135,14 +134,13 @@ const Section_six = () => {
 
                   <div className='mt-4'>
                     <p className='text-2xl font-bold text-blue-600 sm:text-3xl'>
-                      Stayin ' Alive
+                      Stayin'Alive
                     </p>
 
                     <p className='mt-4 leading-relaxed text-gray-700'>
-                      No, Rose, they are not breathing. And they have no arms or
-                      legs … Where are they? You know what? If we come across
-                      somebody with no arms or legs, do we bother resuscitating
-                      them? I mean, what quality of life do we have there?
+                      "No, Rose, they are not breathing. And they have no arms
+                      or legs … Where are they? You know what? If we come
+                      across"
                     </p>
                   </div>
                 </div>
@@ -209,10 +207,9 @@ const Section_six = () => {
                     </p>
 
                     <p className='mt-4 leading-relaxed text-gray-700'>
-                      No, Rose, they are not breathing. And they have no arms or
-                      legs … Where are they? You know what? If we come across
-                      somebody with no arms or legs, do we bother resuscitating
-                      them? I mean, what quality of life do we have there?
+                      "No, Rose, they are not breathing. And they have no arms
+                      or legs … Where are they? You know what? If we come
+                      across"
                     </p>
                   </div>
                 </div>
@@ -279,10 +276,9 @@ const Section_six = () => {
                     </p>
 
                     <p className='mt-4 leading-relaxed text-gray-700'>
-                      No, Rose, they are not breathing. And they have no arms or
-                      legs … Where are they? You know what? If we come across
-                      somebody with no arms or legs, do we bother resuscitating
-                      them? I mean, what quality of life do we have there?
+                      "No, Rose, they are not breathing. And they have no arms
+                      or legs … Where are they? You know what? If we come
+                      across"
                     </p>
                   </div>
                 </div>

@@ -33,7 +33,7 @@ export default function Slider() {
             <div className='md:flex items-center'>
               <div className='relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8'>
                 <div className='max-w-xl ltr:sm:text-left rtl:sm:text-right'>
-                  <h1 className=' uppercase font-extrabold text-6xl'>
+                  <h1 className=' uppercase font-extrabold text-4xl md:text-6xl'>
                     Your Personal{' '}
                     <strong className='font-extrabold text-blue-700'>
                       Launderer
@@ -64,7 +64,9 @@ export default function Slider() {
                 </div>
               </div>
 
-              <Play_btn />
+              <div className='px-16 py-16'>
+                <Play_btn />
+              </div>
             </div>
           </section>
         </SwiperSlide>
@@ -77,7 +79,7 @@ export default function Slider() {
             <div className='md:flex items-center'>
               <div className='relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8'>
                 <div className='max-w-xl ltr:sm:text-left rtl:sm:text-right'>
-                  <h1 className=' uppercase font-extrabold text-6xl'>
+                  <h1 className=' uppercase font-extrabold md text-4xl :md:text-6xl'>
                     Your Personal{' '}
                     <strong className='font-extrabold text-blue-700'>
                       Launderer
@@ -108,7 +110,9 @@ export default function Slider() {
                 </div>
               </div>
 
-              <Play_btn />
+              <div className='px-16 py-16 md:px-0 md:py-0'>
+                <Play_btn />
+              </div>
             </div>
           </section>
         </SwiperSlide>
@@ -122,7 +126,7 @@ export default function Slider() {
             <div className='md:flex items-center'>
               <div className='relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8'>
                 <div className='max-w-xl ltr:sm:text-left rtl:sm:text-right'>
-                  <h1 className=' uppercase font-extrabold text-6xl'>
+                  <h1 className=' uppercase font-extrabold text-4xl md:text-6xl'>
                     Your Personal{' '}
                     <strong className='font-extrabold text-blue-700'>
                       Launderer
@@ -153,7 +157,9 @@ export default function Slider() {
                 </div>
               </div>
 
-              <Play_btn />
+              <div className='px-16 py-16'>
+                <Play_btn />
+              </div>
             </div>
           </section>
         </SwiperSlide>

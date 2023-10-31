@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
-    <footer className='py-10 md:px-20 md:py-10 bg-gray-800 text-gray-50 overflow-x-hidden'>
+    <footer className='py-10 md:px-20 md:py-10 bg-gray-800 text-gray-50 '>
       <div className='container px-6 mx-auto space-y-6 divide-y divide-gray-400 md:space-y-12 divide-opacity-50'>
         <div className='grid gap-10 md:grid-cols-3'>
-          <div className='md:w-96 space-y-5'>
+          <div className='md:w-96 space-y-5 overflow-x-hidden'>
             <a
               rel='noopener noreferrer'
               href='#'
@@ -11,7 +11,7 @@ const Footer = () => {
             >
               <img className='w-44' src='assets/logo.png' alt='logo' />
             </a>
-            <p className=' text-sm text-justify font-medium text-gray-400'>
+            <p className='text-sm text-justify font-medium text-gray-400'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
               dignissimos vitae rerum cumque nemo sed, in rem facere esse
               nesciunt ut dolorem consequuntur est alias inventore minima
@@ -22,7 +22,7 @@ const Footer = () => {
           <div className='flex gap-14'>
             <div>
               <p className='pb-1 text-lg font-medium'>Category</p>
-              <ul>
+              <ul className=' text-center'>
                 <li>
                   <a
                     rel='noopener noreferrer'
@@ -73,7 +73,7 @@ const Footer = () => {
 
             <div>
               <p className='pb-1 text-lg font-medium'>Category</p>
-              <ul>
+              <ul className=' text-center'>
                 <li>
                   <a
                     rel='noopener noreferrer'
@@ -124,7 +124,7 @@ const Footer = () => {
 
             <div>
               <p className='pb-1 text-lg font-medium'>Category</p>
-              <ul>
+              <ul className=' text-center'>
                 <li>
                   <a
                     rel='noopener noreferrer'
@@ -174,7 +174,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className=''>
+          <div className='px-5'>
             <form className='w-full'>
               <h1 className=' text-md center font-bold py-2'>Subscribe</h1>
               <label htmlFor='UserEmail' className='sr-only '>

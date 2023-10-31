@@ -1,6 +1,6 @@
 const Play_btn = () => {
   return (
-    <div className='mx-auto max-w-screen-xl gap-5 flex'>
+    <div className='md:mx-auto md:max-w-screen-xl gap-5 flex'>
       <span className='relative flex h-24 w-24 '>
         <span className='animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75'></span>
         <span className='relative inline-flex rounded-full h-24 w-24 cursor-pointer bg-blue-500'>
