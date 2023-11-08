@@ -1,12 +1,16 @@
 import './App.css';
 import Navbar from './components/layout/Navbar';
-import Home from './views/home/Home';
 import Footer from './components/layout/Footer';
 import { useEffect, useState } from 'react';
+import { Outlet } from 'react-router-dom';
+
 import { Loading } from './components/common/Loading';
+import Login from './views/auth/Login';
+import Admin_views from './page/Admin_views';
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
+  const [user, setUser] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
@@ -16,6 +20,17 @@ function App() {
 
   return (
     <>
+      <Admin_views />
+      {/* {user ? (
+        <>
+          <Navbar />
+          <Outlet />
+          <Footer />
+        </>
+      ) : (
+        <Login setUser={setUser} />
+      )}
+
       {isLoading ? (
         <>
           <Navbar />
@@ -23,10 +38,10 @@ function App() {
           <Footer />
         </>
       ) : (
-        <div className='md:py-80 py-20'>
+        <div className='py-28'>
           <Loading />
         </div>
-      )}
+      )} */}
     </>
   );
 }

@@ -1,5 +1,5 @@
-import React from 'react';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export const TopNav = () => {
   return (
@@ -54,11 +54,11 @@ const Navbar = () => {
         <div className=' uppercase font-bold text-md text-gray-800'>
           <ul className=' hidden md:flex gap-6 items-center'>
             <li>
-              <a href='#home'>Home</a>
+              <Link to='/'>Home</Link>
             </li>
 
             <li>
-              <a href='#home'>About Us</a>
+              <Link to='/about'>About Us</Link>
             </li>
             <li>
               <div className='flex items-center justify-center'>
@@ -118,9 +118,12 @@ const Navbar = () => {
         </div>
 
         <div className='px-5 md:px-0'>
-          <button className=' border px-5 py-2 rounded-md uppercase font-bold text-md text-blue-500'>
+          <Link
+            to='login'
+            className=' border px-5 py-2 rounded-md uppercase font-bold text-md text-blue-500'
+          >
             LOGIN
-          </button>
+          </Link>
         </div>
       </nav>
     </>
