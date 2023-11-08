@@ -1,5 +1,5 @@
 export const Loading = () => {
-  return <div className='loader mx-auto'></div>;
+  return <div className='loader mx-auto items-center'></div>;
 };
 
 export default Loading;
